@@ -11,7 +11,7 @@ class Person():
     
 class Student(Person):
     """Represents a student inheriting attributs from Person"""
-    def __init__(self, name: int, age: int, student_id: int):  # method overriding
+    def __init__(self, name: str, age: int, student_id: int):  # method overriding
         super().__init__(name, age)
         self.student_id = student_id
 

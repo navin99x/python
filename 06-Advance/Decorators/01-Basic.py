@@ -34,3 +34,13 @@ def final_price(price, discount):
 
 
 print(final_price(100, 0.2))
+
+"""
+Applications:
+- Logging
+- Enfore authentication/authorization
+- Performance Measure
+- Rate limiting
+- Retry logic
+- Depriciation warning
+"""
