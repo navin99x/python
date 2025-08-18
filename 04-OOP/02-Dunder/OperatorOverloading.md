@@ -26,5 +26,5 @@ The following shows the operators with their corresponding special methods:
 | `<<=` | `__ilshift__(self, other)__` |
 | `>>=` | `__irshift__(self, other)__` |
 | `&=` | `__iand__(self, other)__` |
-| `^=` | `__ior__(self, other)__` |
+| `\|=` | `__ior__(self, other)__` |
 | `^=` | `__ixor__(self, other)__` |

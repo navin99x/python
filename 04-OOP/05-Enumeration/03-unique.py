@@ -1,4 +1,4 @@
-# Using @enum.unique property to define enumeration that should have any alias.
+# Using @enum.unique property to define enumeration that should have unique alias.
 
 from enum import Enum, unique
 

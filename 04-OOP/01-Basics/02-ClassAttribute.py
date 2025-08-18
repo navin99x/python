@@ -6,7 +6,7 @@ class Product:
         self.price = price
 
     def calcuate_final_price(self):
-        return f"The final price for {self.name} is {self.price * self.discount}"
+        return f"The final price for {self.name} is {self.price - self.price * self.discount}"
 
 obj1 = Product("apple", 300)
 obj2 = Product("mango", 300)

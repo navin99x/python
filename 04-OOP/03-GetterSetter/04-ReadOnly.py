@@ -5,15 +5,15 @@ import math
 
 class Circle:
     def __init__(self, radius):
-        self.radius = radius
+        self._radius = radius
 
     @property  # read-only attribute
     def radius(self):
-        return self.radius
+        return self._radius
     
     @property  # read-only method
     def area(self): 
-        return math.pi * self.radius ** 2
+        return math.pi * self._radius ** 2
 
 
 c = Circle(10)

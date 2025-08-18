@@ -14,7 +14,7 @@ obj.__init__("John")
 print(obj.__dict__)
 
 """
-When you create new object of a class python calls `__new__` method to allocate memory at first.
+When you create new object of a class, python calls `__new__` method to allocate memory at first.
 Then calls `__init__` to initialize the instance.
 """
 
